@@ -1,0 +1,3 @@
+[submodule "simulation_ws/aws-robomaker-racetrack-world"]
+	path = simulation_ws/aws-robomaker-racetrack-world
+	url = https://github.com/aws-robotics/aws-robomaker-racetrack-world

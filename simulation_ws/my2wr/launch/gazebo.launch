@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="robot_description" command="cat '$(find my2wr)/urdf/m2wr.xacro'" />
+
+    <arg name="x" default="2.75"/>
+    <arg name="y" default="-14.00"/>
+    <arg name="z" default="0.5"/>
+    
+    <!--To launch an empty world or else the spawn_model service won't work-->
+    <!--<include file="$(find gazebo_ros)/launch/empty_world.launch"/>-->
+    <include file="$(find aws_robomaker_racetrack_world)/launch/racetrack.launch"/>
+ 
+    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-urdf -param robot_description -model my2wr -x $(arg x) -y $(arg y) -z $(arg z)" />
+
+</launch>

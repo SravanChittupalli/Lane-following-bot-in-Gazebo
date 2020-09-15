@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sravanchittupalli/ros_ws/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/sravanchittupalli/konnoha/TensorFlow/models/research/",
+        "/home/sravanchittupalli/konnoha/TensorFlow/models/research/slim"
+    ]
+}
