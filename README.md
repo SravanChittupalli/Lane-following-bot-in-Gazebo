@@ -93,8 +93,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-![](assets/output.mvk)
+[![output_screenshot][product-screenshot]](assets/output.mkv)
 
 Using this repo is extremely easy if the [prerequisites](#prerequisites) are fulfilled.
 
@@ -149,6 +148,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Amazon AWS Racetrack](https://github.com/aws-robotics/aws-robomaker-racetrack-world)
 * [Image Blurring](https://www.projectrhea.org/rhea/index.php/Applications_of_Convolution:_Simple_Image_Blurring)
 * [Lane Detection](https://www.youtube.com/watch?v=yvfI4p6Wyvk)
 * [The Construct YouTube channel](https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q)
